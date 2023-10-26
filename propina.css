@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 10 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+form {
+    text-align: left;
+}
+
+/* Estilos para los elementos de pregunta y respuesta */
+.label-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.label-input-container label {
+    flex: 1; /* El espacio se divide entre la etiqueta y el campo de entrada */
+    margin-right: 10px;
+}
+
+input[type="number"],
+select {
+    flex: 2; /* El campo de entrada ocupará más espacio */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
